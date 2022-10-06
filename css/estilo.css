@@ -1,0 +1,461 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 1.6rem;
+}
+
+.menu-celular {
+  display: flex;
+  list-style: none;
+  gap: 10.5rem;
+  padding: 1.3rem 4.5rem 2.3rem;
+}
+
+.desktop {
+  display: none;
+}
+
+button {
+  border: none;
+}
+
+.section1 {
+  background-color: #20C9B5;
+  place-items: center;
+  background-image: url(/assets/celular/Textura.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.section1 .parte1 {
+  background-repeat: no-repeat;
+  width: 376px;
+  height: 397px;
+  text-align: center;
+}
+
+.section2-celular {
+  text-align: center;
+  background-color: #20C9B5;
+}
+
+.section2-desktop {
+  display: none;
+}
+
+.saibamais, .vertenis, .adicionaraocarrinho {
+  background-color: black;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+h1, h2, h3, h4, p, .corrida, .preço-tenis, .preço-12x {
+  font-family: HelveticaNeue, sans-serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.saibamais {
+  margin-bottom: 5.4rem;
+}
+
+.vertenis {
+  margin-bottom: 2rem;
+}
+
+.paragrafo-2 {
+  padding: 0 7.5rem 0 7.5rem;
+  align-items: center;
+  line-height: 1.6rem;
+  margin-bottom: 1.9rem;
+}
+
+input {
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 28.3rem;
+}
+
+.tenisrelogio {
+  margin-bottom: 3.2rem;
+}
+
+.logo-verde2 {
+  margin-top: 2.9rem;
+}
+
+.section3-celular {
+  text-align: center;
+}
+.section3-celular .imagens {
+  justify-content: center;
+  width: 24.2rem;
+  margin: auto;
+}
+.section3-celular .imagens-tenis {
+  list-style: none;
+  gap: 0.3rem;
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.section3-desktop {
+  display: none;
+}
+
+.tenis-compra {
+  display: block;
+  margin-left: 2.5rem;
+}
+
+.texto-do-produto {
+  margin: auto;
+  text-align: left;
+  width: 24.2rem;
+}
+
+.subtitulo-do-produto {
+  font-size: 1.4rem;
+  margin-bottom: 1.9rem;
+}
+
+.produto {
+  width: 17.5rem;
+  text-align: left;
+  margin-bottom: 1.9rem;
+}
+
+.tamanho-texto {
+  font-size: 1.5rem;
+  font-family: HelveticaNeue, sans-serif;
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.escolher-tamanho {
+  margin: 1.2rem auto 2.6rem auto;
+  width: 24rem;
+}
+
+.tamanho-tenis {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 0.9rem;
+  list-style: none;
+}
+.tamanho-tenis .tamanho {
+  padding: 0.5rem;
+  background-color: white;
+  border: 0.5px solid #000000;
+  border-radius: 0.2rem;
+}
+
+h3 {
+  width: 19rem;
+  font-size: 2.4rem;
+}
+
+.corrida {
+  margin-top: 3.2rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.5rem;
+}
+
+.preço-tenis {
+  font-size: 1.8rem;
+}
+
+.preço-12x {
+  font-size: 1.4rem;
+  width: 12.9rem;
+}
+
+.texto-final {
+  width: 24.4rem;
+  margin: 5.8rem auto 5.8rem auto;
+  text-align: left;
+}
+
+.titulo-final {
+  margin-bottom: 2.6rem;
+  font-size: 2.4rem;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+.paragrafo-final {
+  font-size: 1.4rem;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 29.7rem;
+  width: 100%;
+}
+footer h5, footer .redes-sociais {
+  font-size: 1.5rem;
+  font-family: HelveticaNeue, sans-serif;
+  color: white;
+}
+footer .redes-sociais {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+footer .formas-de-pagamento {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1.4rem;
+  margin-bottom: 7.3rem;
+}
+footer .itens-footer-celular {
+  padding: 1.4rem 0 2.3rem 0;
+}
+footer .footer-desktop {
+  display: none;
+}
+footer .texto-pagamento {
+  padding-top: 1.6rem;
+  display: block;
+}
+
+footer::after {
+  content: "";
+  width: 37.5rem;
+  height: 0.1rem;
+  background-color: white;
+  position: absolute;
+  right: 0.9rem;
+}
+
+span {
+  color: white;
+  font-size: 1.4rem;
+  font-family: HelveticaNeue, sans-serif;
+}
+
+@media (min-width: 800px) {
+  .celular {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+    height: 7.2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 9.1rem 0 14.1rem;
+  }
+  .logo {
+    width: 11.7rem;
+    height: 4.145rem;
+  }
+  .sacola {
+    height: 36px;
+    width: 34px;
+  }
+  a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: #000000;
+    font-family: HelveticaNeue, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  .menu-desktop {
+    display: flex;
+    list-style: none;
+    gap: 5.3rem;
+  }
+  .section1 {
+    background-image: url(/assets/desktop/textura-desktop.png);
+    height: 80.2rem;
+  }
+  input {
+    display: block;
+    width: 23rem;
+    height: 4.3rem;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 9.6rem;
+  }
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 100;
+  }
+  .logo-verde {
+    margin-top: 4.4rem;
+  }
+  .tenis-hero {
+    margin-top: 2.4rem;
+  }
+  .saibamais {
+    display: block;
+    margin: 1.4rem auto;
+    padding: 1.5rem, 3rem;
+    font-size: 2.4rem;
+  }
+  .section2-desktop {
+    background-color: #20C9B5;
+    display: flex;
+  }
+  .section2-celular {
+    display: none;
+  }
+  .section2-desktop {
+    display: flex;
+  }
+  h4 {
+    font-size: 3.4rem;
+    line-height: 4.05rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 2.4rem;
+    line-height: 2.827rem;
+  }
+  .vertenis {
+    display: block;
+    margin-left: 7.2rem;
+    padding: 1.5rem, 3rem;
+    font-size: 2.4rem;
+  }
+  .logo-verde2 {
+    margin: 5rem 0 5rem 7.2rem;
+  }
+  .tenisrelogio {
+    margin-top: 2.3rem;
+  }
+  .section3-celular {
+    display: none;
+  }
+  .section3-desktop {
+    display: block;
+  }
+  .terceira-parte {
+    display: flex;
+    padding: 10.8rem 10.4rem 6.4rem 10.4rem;
+  }
+  .imagens-tenis {
+    flex-direction: row;
+    width: 83.6rem;
+    flex-wrap: wrap;
+    display: flex;
+    width: 83.6rem;
+    list-style: none;
+  }
+  .texto-do-produto {
+    width: 32.7rem;
+  }
+  .adicionaraocarrinho {
+    display: block;
+    font-size: 2rem;
+  }
+  .tenis-grid {
+    width: 27rem;
+  }
+  .produto {
+    width: 27.6rem;
+  }
+  .tamanho-tenis {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    gap: 0.9rem;
+    list-style: none;
+    margin-bottom: 2.8rem;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  .tamanho-texto {
+    margin-top: 0.3rem;
+  }
+  .texto-final {
+    width: 700px;
+  }
+  .titulo-final {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+  footer {
+    width: 100%;
+    height: 32.4rem;
+  }
+  footer .footer-celular {
+    display: none;
+  }
+  footer .footer-desktop {
+    justify-content: space-around;
+    display: flex;
+    padding-top: 3.7rem;
+  }
+  footer .itens-footer-celular1 {
+    width: 21rem;
+    text-align: left;
+  }
+  footer .itens-footer-celular2 {
+    width: 18rem;
+    text-align: left;
+  }
+  footer .redes-sociais-div {
+    width: 13rem;
+  }
+  footer .formas-de-pagamento {
+    justify-content: left;
+    align-items: flex-start;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer h5 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  footer .texto-pagamento {
+    font-size: 1.6rem;
+    padding-top: 0;
+    text-align: left;
+  }
+  footer::after {
+    content: "";
+    width: 144.4rem;
+    height: 0.1rem;
+    background-color: white;
+    position: absolute;
+    right: 0.9rem;
+  }
+}/*# sourceMappingURL=estilo.css.map */
